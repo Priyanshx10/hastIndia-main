@@ -5,7 +5,6 @@ import { products } from "../assets/frontend_assets/assets";
 export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
-  // Fixing the arrow function definition here
   const currency = "$ ";
   const delivery_fee = 10;
 
