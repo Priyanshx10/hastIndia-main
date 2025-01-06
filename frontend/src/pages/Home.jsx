@@ -1,6 +1,8 @@
 import BestSeller from "../components/BestSeller";
 import Hero from "../components/Hero";
 import LatestCollection from "../components/LatestCollection";
+import NewsLetterBox from "../components/NewsLetterBox";
+import OurPolicy from "../components/OurPolicy";
 
 const HomePage = () => {
   return (
@@ -8,6 +10,8 @@ const HomePage = () => {
       <Hero />
       <LatestCollection />
       <BestSeller />
+      <OurPolicy />
+      <NewsLetterBox />
     </div>
   );
 };
